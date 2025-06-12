@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f3933e4487aba04481f726ec8c7a597, type: 3}
+  m_Name: Rifle
+  m_EditorClassIdentifier: 
+  gunName: Rifle
+  weaponPrefab: {fileID: 5102659339802647182, guid: ec8d4c465d82e874bab6e2d871e58d01,
+    type: 3}
+  spawnPoint: {x: 0, y: 0, z: 0}
+  spawnRotation: {x: 0, y: 0, z: 0}
+  AimPosition: {x: -0.35, y: 0.105, z: -0.192}
+  AimSpeed: 6
+  shootConfiguration: {fileID: 11400000, guid: 3372f026187edcf4c98d5605fe9aa799, type: 2}
+  trailConfiguration: {fileID: 11400000, guid: a6b8ca659b70011449b39b97cf9eec66, type: 2}
+  reloadConfiguration: {fileID: 11400000, guid: 2b7eb4d4e69290f47bf4c26754de8a7e,
+    type: 2}
+  damageConfiguration: {fileID: 11400000, guid: f3a49988dcc76f9449efc8a295646b49,
+    type: 2}

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c09870e85e3f72247aa846130579b09e, type: 3}
+  m_Name: GlockConfig
+  m_EditorClassIdentifier: 
+  hitMask:
+    serializedVersion: 2
+    m_Bits: 1
+  Recoil: {x: -1.5, y: 1.5, z: 0.25}
+  DistanceDeviation: 0.009
+  SnapStrength: 4
+  recoilRecoverySpeed: 3
+  fireRate: 0.33
+  projectilesPerShot: 1
+  UsesProyectiles: 0
+  ProyectileToShoot: {fileID: 0}
